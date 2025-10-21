@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "TECHNOVA - Future Unleashed",
+  description: "Experience the next generation of technology. Discover innovative devices that seamlessly integrate into modern life.",
 };
 
 export default function RootLayout({
@@ -38,8 +38,8 @@ export default function RootLayout({
         <QueryProvider>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
-            enableSystem
+            defaultTheme="dark"
+            enableSystem={false}
             disableTransitionOnChange
           >
             <TooltipProvider>
